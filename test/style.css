@@ -1,0 +1,87 @@
+.h2 {
+    text-align: center;
+    align-items: center;
+
+    color: white;
+
+
+}
+
+.h2 h2 {
+
+
+    border-radius: 8px;
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+.post-padding {
+    padding-top: 30px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.post1 a img {
+    border-style: solid;
+    margin: 10px;
+    height: 140px;
+    width: 239px;
+
+}
+
+.post1 a {
+
+    border-width: 20px;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+}
+
+.post2 a {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.post1 a:hover {
+    -webkit-filter: grayscale(0%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    color: #1E855D;
+}
+
+.post2 a img {
+
+    border-style: solid;
+    margin: 10px;
+    height: 140px;
+    width: 239px;
+}
+
+
+
+
+.post2 a:hover {
+    -webkit-filter: grayscale(0%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    color: #1E855D;
+}
+
+.bottom {
+    padding-top: 30px;
+    border: rgba(2, 2, 2, 0.473);
+    color: white;
+    padding: 0px 20px;
+    background-color: rgba(0, 0, 0, 0.438);
+    position: absolute;
+    bottom: 16px;
+    right: 25px;
+}
+
+/* Gallery Stop */

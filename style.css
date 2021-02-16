@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.main-header-area {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(2, 2, 2, 0.473);
+}
+
+.bg-image {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo-area h2 {
+    color: #fff;
+}
+
+.logo-area p {
+    color: white;
+    font-size: 10px;
+}
+
+.main-header-area {
+    align-items: center;
+    background-position: center;
+
+
+}
+
+.header-wrap {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrap ul li {
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+}
+
+.header-wrap ul li a {
+    padding: 4px 8px;
+    color: #fff;
+}
+
+.navbar ul li a:hover {
+
+    border-radius: 5px;
+    background-color: rgb(30, 133, 93);
+    padding: 4px 8px;
+    align-items: center;
+}
+
+.navbar ul li a:hover {
+    border-radius: 5px;
+    background-color: rgb(30, 133, 93);
+    padding: 4px 8px;
+    align-items: center;
+}
+
+/* Slider CSS */
+
+
+/* slider Nav */
+.slider-items .owl-nav {
+    position: absolute;
+    width: 100%;
+    top: 42%;
+}
+
+.slider-items button.owl-prev span {
+
+    font-size: 50px;
+    color: #1E855D;
+    position: absolute;
+    top: -60px;
+    left: -25px;
+}
+
+.slider-items button.owl-next span {
+    font-size: 50px;
+    color: #1E855D;
+    position: absolute;
+    top: -60px;
+    right: -25px;
+}
+
+/* Slider Nav */
+
+.slider-padding {
+    width: 79%;
+    margin: 0 auto;
+}
+
+.slider-right img {
+    height: 320px;
+    border-radius: 50%;
+    width: 380px !important;
+    border: 15px solid #DDC;
+}
+
+.slider-single-item {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* Slider Left */
+
+.slider-left h1 {
+    align-items: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+
+}
+
+.slider-left {
+    align-items: center;
+    text-align: center;
+
+}
+
+.slider-left button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #1E855D;
+    border-radius: 8px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.slider-left p {
+    padding-bottom: 20px;
+    color: rgb(199, 199, 199);
+
+}
+
+.slider-text {
+    margin: 0 auto;
+    width: 40%;
+}
+
+/* Slider Right */
+
+.slider-right {
+    padding: 30px;
+}
+
+
+slider-img {
+    width: 40%;
+    margin: 0 auto;
+    border: 30px gray;
+    text-align: center;
+    border-radius: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.single-item1 {
+    background-image: url(bg.jpg);
+}
+
+.single-item2 {
+    background-image: url(bg1.jpg);
+}
+
+.single-item3 {
+    background-image: url(bg2.jpg);
+}
+
+.single-item4 {
+    background-image: url(bg3.jpg);
+}
+
+/* Slider Stop */
+
+/* Icon Section */
+
+.icon-padding {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.icon-wrap {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* .icon{
+    padding: 10px 15px;
+    text-align: center;
+    background-color: white;
+    margin: 5px; */
+
+.icon-wrap a {
+    margin: 5px;
+    padding: 10px 15px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+
+}
+
+.icon-wrap a:hover {
+    color: white;
+    background-color: rgb(30, 133, 93);
+    padding: 10px 15px;
+    text-align: center;
+    margin: 5px;
+}
+
+.icon-wrap a i {
+    font-size: 90px;
+}
+
+/* icon Stop */
+
+/* Post Start */
+
+.h2{
+    text-align: center;
+    align-items: center;
+    
+    color: white;
+    
+   
+}
+.h2 h2{
+    
+    
+    border-radius: 8px;
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+.post-padding {
+    padding-top: 30px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.post1 a img { 
+    border-style: solid;
+    margin: 10px;
+    height: 140px;
+    width: 239px;
+    
+}
+
+.post1 a {
+    
+    border-width: 20px;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+}
+
+.post1 a:hover {
+    -webkit-filter: grayscale(0%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    color: #1E855D;
+}
+
+.post2 a img {
+    
+    border-style: solid;
+    margin: 10px;
+    height: 140px;
+    width: 239px;
+}
+
+.post2 a {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+}
+
+.post2 a:hover {
+    -webkit-filter: grayscale(0%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    color: #1E855D;
+}
+
+.bottom {
+    padding-top: 30px;
+    border: rgba(2, 2, 2, 0.473);
+    color: white;
+    padding: 0px 20px;
+    background-color: rgba(0, 0, 0, 0.438);
+    position: absolute;
+    bottom: 16px;
+    right: 25px;
+}
+
+/* Gallery Stop */
+
+
+/* Footer */
+.footer-padding{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-footer{
+    background-color: #313131;
+}
+
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link a {
+    color: #80B68F;
+}
+.blog a {
+    color: #80B68F;
+}
+.footer-wrap h3 {
+    color: white;
+}
+
+.footer-wrap ul li{
+    align-items: center;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    align-items: center;
+    text-align: center;
+    background-color: #222222;
+    color: #222222;
+    width: 50%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #222222; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+.container{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
